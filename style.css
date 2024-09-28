@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: 'PT Sans Narrow', sans-serif;
+	background-color: black;
+	color: white;
+}
+
+/*COMMON*/
+img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.description {
+	margin-top: 1REM;
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: lightgray;
+}
+
+.title {
+	color: coral;
+	font-weight: 700;
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+/*LAYOUTS*/
+.out-container{
+	background-color: beige;
+}
+.container {
+	border: 2px solid bisque;
+	border-radius: 3rem;
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	padding: 5rem;
+	background: #070707;
+	grid-template-columns: 1fr 1fr;
+	gap: 4rem;
+}
+
+.profile {
+	grid-column: 1 / -1;
+	margin-bottom: 2rem;
+}
+
+.group-1,
+.group-2 {
+	display: flex;
+	flex-direction: column;
+	gap: 5rem;
+}
+
+.profile_container {
+	display: flex;
+	gap: 2rem;
+}
+
+.profile_profileImg {
+	max-width: 350px;
+}
+
+.firstName {
+	color: burlywood;
+	font-weight: 200;
+	font-size: clamp(2rem, 8vw, 4rem);
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: -0.8rem;
+}
+
+.lastName {
+	color: coral;
+	font-weight: 700;
+	font-size: clamp(2.5rem, 15vw, 7rem);
+	text-transform: uppercase;
+	display: block;
+}
+
+.profile_title {
+	font-size: 1.5rem;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.download {
+	display: block;
+	text-decoration: underline;
+	font-size: 1.5rem;
+	margin-top: 1rem;
+}
+
+.download:hover {
+	color: coral;
+}
+
+/*EXPERTISE*/
+.skill_list {
+	margin-top: 1rem;
+	margin-left: 2rem;
+	line-height: 2;
+}
+
+/*REFERENCE*/
+.item_1 {
+	margin-top: 2.5rem;
+}
+
+.item_2 {
+	font-size: 1.4rem;
+	font-weight: 700;
+}
+
+.exp {
+	margin-bottom: 2rem;
+}
+
+.logo_2 {
+	font-size: 12px;
+	margin-top: 1rem;
+	display: block;
+	gap: 1rem;
+	margin-left: 2rem;
+}
+
+.logo_2 i {
+	width: 2rem;
+	height: 2rem;
+}
+
+.logo_2 span {
+	margin-left: 1rem;
+}
+
+.footer-box {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-box a {
+	margin-top: 1rem;
+	flex-direction: column;
+	display: inline-block;
+	font-size: 12px;
+	margin-right: 12px;
+	color: lightgrey;
+	transition: all 0.6s ease-in;
+}
+
+.footer-box a:hover {
+	transition: 0.3s ease;
+	color: greenyellow;
+	cursor: pointer;
+	transform: translateX(-5px);
+}
+
+.footer-wrapper {
+	grid-column: 1 / -1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 2rem;
+}
+
+.copyright {
+	margin-top: auto;
+	text-align: center;
+	width: 100%;
+}
+
+.end-text p {
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
