@@ -31,7 +31,7 @@ This repository contains my personal resume, showcasing my skills, education, ex
 
 ## Demo
 
-You can view the live demo of my resume [here](https://yourdemourl.com).  <!-- Replace with your actual demo URL -->
+You can view the live demo of my resume [here](https://codewithbsatyajit.github.io/resume/).  <!-- Replace with your actual demo URL -->
 
 ## Getting Started
 
